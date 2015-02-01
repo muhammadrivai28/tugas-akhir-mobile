@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emergencycall Jambi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_polisi">Polisi</string>
+    <string name="title_activity_rumah_sakit">RumahSakit</string>
+    <string name="title_activity_pemadam">Pemadam</string>
+    <string name="title_activity_pelayanan_masyarakat">PelayananMasyarakat</string>
+
+</resources>

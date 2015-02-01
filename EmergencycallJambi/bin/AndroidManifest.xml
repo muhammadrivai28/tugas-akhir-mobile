@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emergencycalljambi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Polisi"
+            android:label="@string/title_activity_polisi" >
+        </activity>
+        <activity
+            android:name=".RumahSakit"
+            android:label="@string/title_activity_rumah_sakit" >
+        </activity>
+        <activity
+            android:name=".Pemadam"
+            android:label="@string/title_activity_pemadam" >
+        </activity>
+        <activity
+            android:name=".PelayananMasyarakat"
+            android:label="@string/title_activity_pelayanan_masyarakat" >
+        </activity>
+    </application>
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+
+</manifest>
